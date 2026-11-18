@@ -1,0 +1,50 @@
+{
+  "model": "gpt-5.6-luna",
+  "by_size": {
+    "100": {
+      "total": 50,
+      "perfect": 44,
+      "perfect_rate": 0.88,
+      "error_counts": {
+        "E1": 0,
+        "E2": 0,
+        "E3": 6,
+        "E4": 0,
+        "E5": 0,
+        "E6": 0,
+        "E7": 0,
+        "E8": 0
+      }
+    },
+    "300": {
+      "total": 50,
+      "perfect": 40,
+      "perfect_rate": 0.8,
+      "error_counts": {
+        "E1": 0,
+        "E2": 0,
+        "E3": 9,
+        "E4": 0,
+        "E5": 3,
+        "E6": 0,
+        "E7": 0,
+        "E8": 0
+      }
+    },
+    "500": {
+      "total": 50,
+      "perfect": 24,
+      "perfect_rate": 0.48,
+      "error_counts": {
+        "E1": 2,
+        "E2": 15,
+        "E3": 16,
+        "E4": 0,
+        "E5": 7,
+        "E6": 0,
+        "E7": 0,
+        "E8": 0
+      }
+    }
+  }
+}

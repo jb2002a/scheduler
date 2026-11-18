@@ -1,0 +1,163 @@
+{
+  "response_text": "{\"feasible\": true, \"courses\": [{\"name\": \"IT융합기술이해\", \"credits\": 3, \"time\": \"금567\"}, {\"name\": \"인공지능\", \"credits\": 3, \"time\": \"화567\"}, {\"name\": \"시스템분석과설계\", \"credits\": 3, \"time\": \"금234\"}, {\"name\": \"인성1\", \"credits\": 1, \"time\": \"금8\"}, {\"name\": \"생활속서예\", \"credits\": 2, \"time\": \"목23\"}, {\"name\": \"한국어통역(교환학생)\", \"credits\": 3, \"time\": \"화34목4\"}, {\"name\": \"운영체제\", \"credits\": 3, \"time\": \"목567\"}], \"total_credits\": 18, \"explanation\": \"solver\"}",
+  "error": null,
+  "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"category\":\"전공\",\"min\":12}},{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18}}]}",
+  "model_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "category": "전공",
+        "min": 12
+      }
+    },
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      }
+    }
+  ],
+  "resolved_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "category": "전공",
+        "min": 12
+      }
+    },
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      }
+    }
+  ],
+  "solver_result": {
+    "status": "ok",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "credits",
+        "params": {
+          "category": "전공",
+          "min": 12
+        }
+      },
+      {
+        "id": "c2",
+        "type": "credits",
+        "params": {
+          "min": 18,
+          "max": 18
+        }
+      }
+    ],
+    "candidates": [
+      {
+        "courses": [
+          {
+            "id": 45,
+            "name": "IT융합기술이해",
+            "credits": 3,
+            "raw_time": "금567"
+          },
+          {
+            "id": 76,
+            "name": "인공지능",
+            "credits": 3,
+            "raw_time": "화567"
+          },
+          {
+            "id": 178,
+            "name": "시스템분석과설계",
+            "credits": 3,
+            "raw_time": "금234"
+          },
+          {
+            "id": 257,
+            "name": "인성1",
+            "credits": 1,
+            "raw_time": "금8"
+          },
+          {
+            "id": 272,
+            "name": "생활속서예",
+            "credits": 2,
+            "raw_time": "목23"
+          },
+          {
+            "id": 282,
+            "name": "한국어통역(교환학생)",
+            "credits": 3,
+            "raw_time": "화34목4"
+          },
+          {
+            "id": 296,
+            "name": "운영체제",
+            "credits": 3,
+            "raw_time": "목567"
+          }
+        ],
+        "total_credits": 18,
+        "days_used": [
+          "TUE",
+          "THU",
+          "FRI"
+        ],
+        "metrics": {
+          "free_periods_by_day": {
+            "TUE": 0,
+            "THU": 0,
+            "FRI": 0
+          },
+          "max_consecutive": 7,
+          "early_class_count": 0,
+          "late_class_count": 0
+        },
+        "score": 3000000
+      }
+    ]
+  },
+  "turn_trace": [
+    {
+      "turn": 1,
+      "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"category\":\"전공\",\"min\":12}},{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18}}]}",
+      "model_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "category": "전공",
+            "min": 12
+          }
+        },
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          }
+        }
+      ],
+      "resolved_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "category": "전공",
+            "min": 12
+          }
+        },
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          }
+        }
+      ],
+      "solver_status": "ok"
+    }
+  ],
+  "scored_turn": 0
+}

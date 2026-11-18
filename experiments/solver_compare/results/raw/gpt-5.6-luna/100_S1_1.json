@@ -1,0 +1,144 @@
+{
+  "response_text": "{\"feasible\": true, \"courses\": [{\"name\": \"도예치유와생태적감수성\", \"credits\": 2, \"time\": \"수67\"}, {\"name\": \"리더십1\", \"credits\": 1, \"time\": \"수8\"}, {\"name\": \"CEO와리더십\", \"credits\": 2, \"time\": \"월45\"}, {\"name\": \"중국어첫걸음2\", \"credits\": 2, \"time\": \"월67\"}, {\"name\": \"챠밍마시지요법\", \"credits\": 3, \"time\": \"화567\"}, {\"name\": \"생활과안전\", \"credits\": 2, \"time\": \"수34\"}, {\"name\": \"두얼굴의중국역사\", \"credits\": 2, \"time\": \"월23\"}, {\"name\": \"전북도시와사람\", \"credits\": 3, \"time\": \"화234\"}, {\"name\": \"군교육훈련1\", \"credits\": 1, \"time\": \"화8\"}], \"total_credits\": 18, \"explanation\": \"solver\"}",
+  "error": null,
+  "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"}]}",
+  "model_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    }
+  ],
+  "resolved_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    }
+  ],
+  "solver_result": {
+    "status": "ok",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "credits",
+        "params": {
+          "min": 18,
+          "max": 18
+        },
+        "source_text": "18학점으로 짜줘"
+      }
+    ],
+    "candidates": [
+      {
+        "courses": [
+          {
+            "id": 10,
+            "name": "도예치유와생태적감수성",
+            "credits": 2,
+            "raw_time": "수67"
+          },
+          {
+            "id": 43,
+            "name": "리더십1",
+            "credits": 1,
+            "raw_time": "수8"
+          },
+          {
+            "id": 56,
+            "name": "CEO와리더십",
+            "credits": 2,
+            "raw_time": "월45"
+          },
+          {
+            "id": 60,
+            "name": "중국어첫걸음2",
+            "credits": 2,
+            "raw_time": "월67"
+          },
+          {
+            "id": 75,
+            "name": "챠밍마시지요법",
+            "credits": 3,
+            "raw_time": "화567"
+          },
+          {
+            "id": 82,
+            "name": "생활과안전",
+            "credits": 2,
+            "raw_time": "수34"
+          },
+          {
+            "id": 90,
+            "name": "두얼굴의중국역사",
+            "credits": 2,
+            "raw_time": "월23"
+          },
+          {
+            "id": 96,
+            "name": "전북도시와사람",
+            "credits": 3,
+            "raw_time": "화234"
+          },
+          {
+            "id": 99,
+            "name": "군교육훈련1",
+            "credits": 1,
+            "raw_time": "화8"
+          }
+        ],
+        "total_credits": 18,
+        "days_used": [
+          "MON",
+          "TUE",
+          "WED"
+        ],
+        "metrics": {
+          "free_periods_by_day": {
+            "MON": 0,
+            "TUE": 0,
+            "WED": 1
+          },
+          "max_consecutive": 7,
+          "early_class_count": 0,
+          "late_class_count": 0
+        },
+        "score": 3000000
+      }
+    ]
+  },
+  "turn_trace": [
+    {
+      "turn": 1,
+      "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"}]}",
+      "model_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        }
+      ],
+      "resolved_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        }
+      ],
+      "solver_status": "ok"
+    }
+  ],
+  "scored_turn": 0
+}

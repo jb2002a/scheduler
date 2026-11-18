@@ -1,0 +1,212 @@
+{
+  "response_text": "{\"feasible\": true, \"courses\": [{\"name\": \"인성2_변형385\", \"credits\": 2, \"time\": \"화8\"}, {\"name\": \"여행중국어_변형464\", \"credits\": 2, \"time\": \"목6\"}, {\"name\": \"데이터구조\", \"credits\": 3, \"time\": \"화567\"}, {\"name\": \"디지털시대의한자활용\", \"credits\": 3, \"time\": \"목34화4\"}, {\"name\": \"몸짱을위한영양테크_변형363\", \"credits\": 3, \"time\": \"목78\"}, {\"name\": \"이산수학_변형468\", \"credits\": 3, \"time\": \"화3\"}, {\"name\": \"AI로배우는스토리&아트창작_변형395\", \"credits\": 2, \"time\": \"화2\"}], \"total_credits\": 18, \"explanation\": \"solver\"}",
+  "error": null,
+  "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"course\",\"params\":{\"name\":\"데이터구조\",\"mode\":\"require\"},\"source_text\":\"데이터구조는 꼭 넣어줘\"},{\"type\":\"course\",\"params\":{\"name\":\"영어회화\",\"mode\":\"exclude\"},\"source_text\":\"영어회화는 빼줘\"}]}",
+  "model_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "course",
+      "params": {
+        "name": "데이터구조",
+        "mode": "require"
+      },
+      "source_text": "데이터구조는 꼭 넣어줘"
+    },
+    {
+      "type": "course",
+      "params": {
+        "name": "영어회화",
+        "mode": "exclude"
+      },
+      "source_text": "영어회화는 빼줘"
+    }
+  ],
+  "resolved_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "course",
+      "params": {
+        "course_id": 199,
+        "mode": "require"
+      },
+      "source_text": "데이터구조는 꼭 넣어줘"
+    },
+    {
+      "type": "course",
+      "params": {
+        "course_id": 21,
+        "mode": "exclude"
+      },
+      "source_text": "영어회화는 빼줘"
+    }
+  ],
+  "solver_result": {
+    "status": "ok",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "credits",
+        "params": {
+          "min": 18,
+          "max": 18
+        },
+        "source_text": "18학점으로 짜줘"
+      },
+      {
+        "id": "c2",
+        "type": "course",
+        "params": {
+          "course_id": 199,
+          "mode": "require"
+        },
+        "source_text": "데이터구조는 꼭 넣어줘"
+      },
+      {
+        "id": "c3",
+        "type": "course",
+        "params": {
+          "course_id": 21,
+          "mode": "exclude"
+        },
+        "source_text": "영어회화는 빼줘"
+      }
+    ],
+    "candidates": [
+      {
+        "courses": [
+          {
+            "id": 90,
+            "name": "인성2_변형385",
+            "credits": 2,
+            "raw_time": "화8"
+          },
+          {
+            "id": 168,
+            "name": "여행중국어_변형464",
+            "credits": 2,
+            "raw_time": "목6"
+          },
+          {
+            "id": 199,
+            "name": "데이터구조",
+            "credits": 3,
+            "raw_time": "화567"
+          },
+          {
+            "id": 282,
+            "name": "디지털시대의한자활용",
+            "credits": 3,
+            "raw_time": "목34화4"
+          },
+          {
+            "id": 429,
+            "name": "몸짱을위한영양테크_변형363",
+            "credits": 3,
+            "raw_time": "목78"
+          },
+          {
+            "id": 483,
+            "name": "이산수학_변형468",
+            "credits": 3,
+            "raw_time": "화3"
+          },
+          {
+            "id": 499,
+            "name": "AI로배우는스토리&아트창작_변형395",
+            "credits": 2,
+            "raw_time": "화2"
+          }
+        ],
+        "total_credits": 18,
+        "days_used": [
+          "TUE",
+          "THU"
+        ],
+        "metrics": {
+          "free_periods_by_day": {
+            "TUE": 0,
+            "THU": 1
+          },
+          "max_consecutive": 7,
+          "early_class_count": 0,
+          "late_class_count": 0
+        },
+        "score": 2000000
+      }
+    ]
+  },
+  "turn_trace": [
+    {
+      "turn": 1,
+      "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"course\",\"params\":{\"name\":\"데이터구조\",\"mode\":\"require\"},\"source_text\":\"데이터구조는 꼭 넣어줘\"},{\"type\":\"course\",\"params\":{\"name\":\"영어회화\",\"mode\":\"exclude\"},\"source_text\":\"영어회화는 빼줘\"}]}",
+      "model_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "course",
+          "params": {
+            "name": "데이터구조",
+            "mode": "require"
+          },
+          "source_text": "데이터구조는 꼭 넣어줘"
+        },
+        {
+          "type": "course",
+          "params": {
+            "name": "영어회화",
+            "mode": "exclude"
+          },
+          "source_text": "영어회화는 빼줘"
+        }
+      ],
+      "resolved_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "course",
+          "params": {
+            "course_id": 199,
+            "mode": "require"
+          },
+          "source_text": "데이터구조는 꼭 넣어줘"
+        },
+        {
+          "type": "course",
+          "params": {
+            "course_id": 21,
+            "mode": "exclude"
+          },
+          "source_text": "영어회화는 빼줘"
+        }
+      ],
+      "solver_status": "ok"
+    }
+  ],
+  "scored_turn": 0
+}

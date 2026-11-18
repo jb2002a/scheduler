@@ -1,0 +1,196 @@
+{
+  "response_text": "{\"feasible\": true, \"courses\": [{\"name\": \"여대생을위한호신술\", \"credits\": 2, \"time\": \"화78\"}, {\"name\": \"러시아문화산책\", \"credits\": 2, \"time\": \"금45\"}, {\"name\": \"스마트IOT이해\", \"credits\": 2, \"time\": \"금23\"}, {\"name\": \"지역봉사1\", \"credits\": 1, \"time\": \"월8\"}, {\"name\": \"CEO와리더십\", \"credits\": 2, \"time\": \"월45\"}, {\"name\": \"인성1\", \"credits\": 1, \"time\": \"금8\"}, {\"name\": \"예술감상및비평\", \"credits\": 2, \"time\": \"월23\"}, {\"name\": \"디지털리터러시2\", \"credits\": 2, \"time\": \"금67\"}, {\"name\": \"문화예술페스타\", \"credits\": 2, \"time\": \"화56\"}, {\"name\": \"실용색채학의이해\", \"credits\": 2, \"time\": \"월67\"}], \"total_credits\": 18, \"explanation\": \"solver\"}",
+  "error": null,
+  "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"free_slots\",\"params\":{\"days\":[\"WED\"]},\"source_text\":\"수요일은 공강이었으면 좋겠어\"}]}",
+  "model_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "days": [
+          "WED"
+        ]
+      },
+      "source_text": "수요일은 공강이었으면 좋겠어"
+    }
+  ],
+  "resolved_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "days": [
+          "WED"
+        ]
+      },
+      "source_text": "수요일은 공강이었으면 좋겠어"
+    }
+  ],
+  "solver_result": {
+    "status": "ok",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "credits",
+        "params": {
+          "min": 18,
+          "max": 18
+        },
+        "source_text": "18학점으로 짜줘"
+      },
+      {
+        "id": "c2",
+        "type": "free_slots",
+        "params": {
+          "days": [
+            "WED"
+          ]
+        },
+        "source_text": "수요일은 공강이었으면 좋겠어"
+      }
+    ],
+    "candidates": [
+      {
+        "courses": [
+          {
+            "id": 52,
+            "name": "여대생을위한호신술",
+            "credits": 2,
+            "raw_time": "화78"
+          },
+          {
+            "id": 161,
+            "name": "러시아문화산책",
+            "credits": 2,
+            "raw_time": "금45"
+          },
+          {
+            "id": 165,
+            "name": "스마트IOT이해",
+            "credits": 2,
+            "raw_time": "금23"
+          },
+          {
+            "id": 166,
+            "name": "지역봉사1",
+            "credits": 1,
+            "raw_time": "월8"
+          },
+          {
+            "id": 231,
+            "name": "CEO와리더십",
+            "credits": 2,
+            "raw_time": "월45"
+          },
+          {
+            "id": 257,
+            "name": "인성1",
+            "credits": 1,
+            "raw_time": "금8"
+          },
+          {
+            "id": 274,
+            "name": "예술감상및비평",
+            "credits": 2,
+            "raw_time": "월23"
+          },
+          {
+            "id": 277,
+            "name": "디지털리터러시2",
+            "credits": 2,
+            "raw_time": "금67"
+          },
+          {
+            "id": 281,
+            "name": "문화예술페스타",
+            "credits": 2,
+            "raw_time": "화56"
+          },
+          {
+            "id": 288,
+            "name": "실용색채학의이해",
+            "credits": 2,
+            "raw_time": "월67"
+          }
+        ],
+        "total_credits": 18,
+        "days_used": [
+          "MON",
+          "TUE",
+          "FRI"
+        ],
+        "metrics": {
+          "free_periods_by_day": {
+            "MON": 0,
+            "TUE": 0,
+            "FRI": 0
+          },
+          "max_consecutive": 7,
+          "early_class_count": 0,
+          "late_class_count": 0
+        },
+        "score": 3000000
+      }
+    ]
+  },
+  "turn_trace": [
+    {
+      "turn": 1,
+      "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"free_slots\",\"params\":{\"days\":[\"WED\"]},\"source_text\":\"수요일은 공강이었으면 좋겠어\"}]}",
+      "model_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "days": [
+              "WED"
+            ]
+          },
+          "source_text": "수요일은 공강이었으면 좋겠어"
+        }
+      ],
+      "resolved_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "days": [
+              "WED"
+            ]
+          },
+          "source_text": "수요일은 공강이었으면 좋겠어"
+        }
+      ],
+      "solver_status": "ok"
+    }
+  ],
+  "scored_turn": 0
+}

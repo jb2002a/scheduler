@@ -1,0 +1,178 @@
+{
+  "response_text": "{\"feasible\": true, \"courses\": [{\"name\": \"지역봉사1\", \"credits\": 1, \"time\": \"월8\"}, {\"name\": \"지속가능한생태계\", \"credits\": 2, \"time\": \"화78\"}, {\"name\": \"중국어첫걸음2\", \"credits\": 2, \"time\": \"월67\"}, {\"name\": \"글쓰기이론과실제\", \"credits\": 3, \"time\": \"월23목2\"}, {\"name\": \"글로벌리터러시4\", \"credits\": 4, \"time\": \"화56목56\"}, {\"name\": \"반려동물의이해\", \"credits\": 3, \"time\": \"월45목4\"}, {\"name\": \"전북도시와사람\", \"credits\": 3, \"time\": \"화234\"}], \"total_credits\": 18, \"explanation\": \"solver\"}",
+  "error": null,
+  "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"free_slots\",\"params\":{\"days\":[\"WED\"]},\"source_text\":\"수요일은 공강이었으면 좋겠어\"}]}",
+  "model_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "days": [
+          "WED"
+        ]
+      },
+      "source_text": "수요일은 공강이었으면 좋겠어"
+    }
+  ],
+  "resolved_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "days": [
+          "WED"
+        ]
+      },
+      "source_text": "수요일은 공강이었으면 좋겠어"
+    }
+  ],
+  "solver_result": {
+    "status": "ok",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "credits",
+        "params": {
+          "min": 18,
+          "max": 18
+        },
+        "source_text": "18학점으로 짜줘"
+      },
+      {
+        "id": "c2",
+        "type": "free_slots",
+        "params": {
+          "days": [
+            "WED"
+          ]
+        },
+        "source_text": "수요일은 공강이었으면 좋겠어"
+      }
+    ],
+    "candidates": [
+      {
+        "courses": [
+          {
+            "id": 16,
+            "name": "지역봉사1",
+            "credits": 1,
+            "raw_time": "월8"
+          },
+          {
+            "id": 59,
+            "name": "지속가능한생태계",
+            "credits": 2,
+            "raw_time": "화78"
+          },
+          {
+            "id": 60,
+            "name": "중국어첫걸음2",
+            "credits": 2,
+            "raw_time": "월67"
+          },
+          {
+            "id": 62,
+            "name": "글쓰기이론과실제",
+            "credits": 3,
+            "raw_time": "월23목2"
+          },
+          {
+            "id": 65,
+            "name": "글로벌리터러시4",
+            "credits": 4,
+            "raw_time": "화56목56"
+          },
+          {
+            "id": 81,
+            "name": "반려동물의이해",
+            "credits": 3,
+            "raw_time": "월45목4"
+          },
+          {
+            "id": 96,
+            "name": "전북도시와사람",
+            "credits": 3,
+            "raw_time": "화234"
+          }
+        ],
+        "total_credits": 18,
+        "days_used": [
+          "MON",
+          "TUE",
+          "THU"
+        ],
+        "metrics": {
+          "free_periods_by_day": {
+            "MON": 0,
+            "TUE": 0,
+            "THU": 1
+          },
+          "max_consecutive": 7,
+          "early_class_count": 0,
+          "late_class_count": 0
+        },
+        "score": 3000000
+      }
+    ]
+  },
+  "turn_trace": [
+    {
+      "turn": 1,
+      "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"free_slots\",\"params\":{\"days\":[\"WED\"]},\"source_text\":\"수요일은 공강이었으면 좋겠어\"}]}",
+      "model_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "days": [
+              "WED"
+            ]
+          },
+          "source_text": "수요일은 공강이었으면 좋겠어"
+        }
+      ],
+      "resolved_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "days": [
+              "WED"
+            ]
+          },
+          "source_text": "수요일은 공강이었으면 좋겠어"
+        }
+      ],
+      "solver_status": "ok"
+    }
+  ],
+  "scored_turn": 0
+}

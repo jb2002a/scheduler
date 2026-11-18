@@ -1,0 +1,336 @@
+{
+  "response_text": "{\"feasible\": true, \"courses\": [{\"name\": \"한국문화사\", \"credits\": 3, \"time\": \"화23목3\"}, {\"name\": \"여대생을위한호신술\", \"credits\": 2, \"time\": \"화78\"}, {\"name\": \"글쓰기이론과실제\", \"credits\": 3, \"time\": \"월23목2\"}, {\"name\": \"지역봉사1\", \"credits\": 1, \"time\": \"월8\"}, {\"name\": \"디지털리터러시3\", \"credits\": 2, \"time\": \"목78\"}, {\"name\": \"인적자원개발론\", \"credits\": 3, \"time\": \"월567\"}, {\"name\": \"클래식산책\", \"credits\": 2, \"time\": \"목56\"}, {\"name\": \"문화예술페스타\", \"credits\": 2, \"time\": \"화56\"}], \"total_credits\": 18, \"explanation\": \"solver\"}",
+  "error": null,
+  "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"free_slots\",\"params\":{\"days\":[\"WED\"],\"periods\":[0,1,2,3,4,5,6,7,8,9,10]},\"source_text\":\"수요일 공강\"},{\"type\":\"free_slots\",\"params\":{\"periods\":[4]},\"source_text\":\"점심 4교시 비우고\"},{\"type\":\"limit\",\"params\":{\"kind\":\"days\",\"count\":3},\"source_text\":\"주 3일만 다니고 싶어\"}]}",
+  "model_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "days": [
+          "WED"
+        ],
+        "periods": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source_text": "수요일 공강"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "periods": [
+          4
+        ]
+      },
+      "source_text": "점심 4교시 비우고"
+    },
+    {
+      "type": "limit",
+      "params": {
+        "kind": "days",
+        "count": 3
+      },
+      "source_text": "주 3일만 다니고 싶어"
+    }
+  ],
+  "resolved_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "days": [
+          "WED"
+        ],
+        "periods": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source_text": "수요일 공강"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "periods": [
+          4
+        ]
+      },
+      "source_text": "점심 4교시 비우고"
+    },
+    {
+      "type": "limit",
+      "params": {
+        "kind": "days",
+        "count": 3
+      },
+      "source_text": "주 3일만 다니고 싶어"
+    }
+  ],
+  "solver_result": {
+    "status": "ok",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "credits",
+        "params": {
+          "min": 18,
+          "max": 18
+        },
+        "source_text": "18학점으로 짜줘"
+      },
+      {
+        "id": "c2",
+        "type": "free_slots",
+        "params": {
+          "days": [
+            "WED"
+          ],
+          "periods": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "source_text": "수요일 공강"
+      },
+      {
+        "id": "c3",
+        "type": "free_slots",
+        "params": {
+          "periods": [
+            4
+          ]
+        },
+        "source_text": "점심 4교시 비우고"
+      },
+      {
+        "id": "c4",
+        "type": "limit",
+        "params": {
+          "kind": "days",
+          "count": 3
+        },
+        "source_text": "주 3일만 다니고 싶어"
+      }
+    ],
+    "candidates": [
+      {
+        "courses": [
+          {
+            "id": 14,
+            "name": "한국문화사",
+            "credits": 3,
+            "raw_time": "화23목3"
+          },
+          {
+            "id": 52,
+            "name": "여대생을위한호신술",
+            "credits": 2,
+            "raw_time": "화78"
+          },
+          {
+            "id": 53,
+            "name": "글쓰기이론과실제",
+            "credits": 3,
+            "raw_time": "월23목2"
+          },
+          {
+            "id": 166,
+            "name": "지역봉사1",
+            "credits": 1,
+            "raw_time": "월8"
+          },
+          {
+            "id": 229,
+            "name": "디지털리터러시3",
+            "credits": 2,
+            "raw_time": "목78"
+          },
+          {
+            "id": 256,
+            "name": "인적자원개발론",
+            "credits": 3,
+            "raw_time": "월567"
+          },
+          {
+            "id": 275,
+            "name": "클래식산책",
+            "credits": 2,
+            "raw_time": "목56"
+          },
+          {
+            "id": 281,
+            "name": "문화예술페스타",
+            "credits": 2,
+            "raw_time": "화56"
+          }
+        ],
+        "total_credits": 18,
+        "days_used": [
+          "MON",
+          "TUE",
+          "THU"
+        ],
+        "metrics": {
+          "free_periods_by_day": {
+            "MON": 1,
+            "TUE": 1,
+            "THU": 1
+          },
+          "max_consecutive": 4,
+          "early_class_count": 0,
+          "late_class_count": 0
+        },
+        "score": 3000000
+      }
+    ]
+  },
+  "turn_trace": [
+    {
+      "turn": 1,
+      "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"free_slots\",\"params\":{\"days\":[\"WED\"],\"periods\":[0,1,2,3,4,5,6,7,8,9,10]},\"source_text\":\"수요일 공강\"},{\"type\":\"free_slots\",\"params\":{\"periods\":[4]},\"source_text\":\"점심 4교시 비우고\"},{\"type\":\"limit\",\"params\":{\"kind\":\"days\",\"count\":3},\"source_text\":\"주 3일만 다니고 싶어\"}]}",
+      "model_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "days": [
+              "WED"
+            ],
+            "periods": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          "source_text": "수요일 공강"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "periods": [
+              4
+            ]
+          },
+          "source_text": "점심 4교시 비우고"
+        },
+        {
+          "type": "limit",
+          "params": {
+            "kind": "days",
+            "count": 3
+          },
+          "source_text": "주 3일만 다니고 싶어"
+        }
+      ],
+      "resolved_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "days": [
+              "WED"
+            ],
+            "periods": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          "source_text": "수요일 공강"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "periods": [
+              4
+            ]
+          },
+          "source_text": "점심 4교시 비우고"
+        },
+        {
+          "type": "limit",
+          "params": {
+            "kind": "days",
+            "count": 3
+          },
+          "source_text": "주 3일만 다니고 싶어"
+        }
+      ],
+      "solver_status": "ok"
+    }
+  ],
+  "scored_turn": 0
+}

@@ -1,0 +1,375 @@
+{
+  "response_text": "{\"feasible\": true, \"courses\": [{\"name\": \"AI로하는일본문화기행\", \"credits\": 2, \"time\": \"목23\"}, {\"name\": \"보건과사회\", \"credits\": 2, \"time\": \"화45\"}, {\"name\": \"CEO와리더십\", \"credits\": 2, \"time\": \"월45\"}, {\"name\": \"중국어첫걸음2\", \"credits\": 2, \"time\": \"월67\"}, {\"name\": \"국제화시대와커뮤니케이션\", \"credits\": 2, \"time\": \"화67\"}, {\"name\": \"종합한국어\", \"credits\": 3, \"time\": \"목678\"}, {\"name\": \"두얼굴의중국역사\", \"credits\": 2, \"time\": \"월23\"}, {\"name\": \"댄스스포츠\", \"credits\": 2, \"time\": \"목45\"}, {\"name\": \"군교육훈련1\", \"credits\": 1, \"time\": \"화8\"}], \"total_credits\": 18, \"explanation\": \"solver\"}",
+  "error": null,
+  "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"free_slots\",\"params\":{\"days\":[\"WED\"],\"periods\":[0,1,2,3,4,5,6,7,8,9,10]},\"source_text\":\"수요일은 공강이었으면 좋겠어\"},{\"type\":\"free_slots\",\"params\":{\"periods\":[0,1]},\"source_text\":\"아침도 비워줘\"}]}",
+  "model_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "days": [
+          "WED"
+        ],
+        "periods": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source_text": "수요일은 공강이었으면 좋겠어"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "periods": [
+          0,
+          1
+        ]
+      },
+      "source_text": "아침도 비워줘"
+    }
+  ],
+  "resolved_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "days": [
+          "WED"
+        ],
+        "periods": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source_text": "수요일은 공강이었으면 좋겠어"
+    },
+    {
+      "type": "free_slots",
+      "params": {
+        "periods": [
+          0,
+          1
+        ]
+      },
+      "source_text": "아침도 비워줘"
+    }
+  ],
+  "solver_result": {
+    "status": "ok",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "credits",
+        "params": {
+          "min": 18,
+          "max": 18
+        },
+        "source_text": "18학점으로 짜줘"
+      },
+      {
+        "id": "c2",
+        "type": "free_slots",
+        "params": {
+          "days": [
+            "WED"
+          ],
+          "periods": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "source_text": "수요일은 공강이었으면 좋겠어"
+      },
+      {
+        "id": "c3",
+        "type": "free_slots",
+        "params": {
+          "periods": [
+            0,
+            1
+          ]
+        },
+        "source_text": "아침도 비워줘"
+      }
+    ],
+    "candidates": [
+      {
+        "courses": [
+          {
+            "id": 23,
+            "name": "AI로하는일본문화기행",
+            "credits": 2,
+            "raw_time": "목23"
+          },
+          {
+            "id": 40,
+            "name": "보건과사회",
+            "credits": 2,
+            "raw_time": "화45"
+          },
+          {
+            "id": 56,
+            "name": "CEO와리더십",
+            "credits": 2,
+            "raw_time": "월45"
+          },
+          {
+            "id": 60,
+            "name": "중국어첫걸음2",
+            "credits": 2,
+            "raw_time": "월67"
+          },
+          {
+            "id": 73,
+            "name": "국제화시대와커뮤니케이션",
+            "credits": 2,
+            "raw_time": "화67"
+          },
+          {
+            "id": 74,
+            "name": "종합한국어",
+            "credits": 3,
+            "raw_time": "목678"
+          },
+          {
+            "id": 90,
+            "name": "두얼굴의중국역사",
+            "credits": 2,
+            "raw_time": "월23"
+          },
+          {
+            "id": 97,
+            "name": "댄스스포츠",
+            "credits": 2,
+            "raw_time": "목45"
+          },
+          {
+            "id": 99,
+            "name": "군교육훈련1",
+            "credits": 1,
+            "raw_time": "화8"
+          }
+        ],
+        "total_credits": 18,
+        "days_used": [
+          "MON",
+          "TUE",
+          "THU"
+        ],
+        "metrics": {
+          "free_periods_by_day": {
+            "MON": 0,
+            "TUE": 0,
+            "THU": 0
+          },
+          "max_consecutive": 7,
+          "early_class_count": 0,
+          "late_class_count": 0
+        },
+        "score": 3000000
+      }
+    ]
+  },
+  "turn_trace": [
+    {
+      "turn": 1,
+      "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"free_slots\",\"params\":{\"days\":[\"WED\"],\"periods\":[0,1,2,3,4,5,6,7,8,9,10]},\"source_text\":\"수요일은 공강이었으면 좋겠어\"}]}",
+      "model_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "days": [
+              "WED"
+            ],
+            "periods": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          "source_text": "수요일은 공강이었으면 좋겠어"
+        }
+      ],
+      "resolved_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "days": [
+              "WED"
+            ],
+            "periods": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          "source_text": "수요일은 공강이었으면 좋겠어"
+        }
+      ],
+      "solver_status": "ok"
+    },
+    {
+      "turn": 2,
+      "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"free_slots\",\"params\":{\"days\":[\"WED\"],\"periods\":[0,1,2,3,4,5,6,7,8,9,10]},\"source_text\":\"수요일은 공강이었으면 좋겠어\"},{\"type\":\"free_slots\",\"params\":{\"periods\":[0,1]},\"source_text\":\"아침도 비워줘\"}]}",
+      "model_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "days": [
+              "WED"
+            ],
+            "periods": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          "source_text": "수요일은 공강이었으면 좋겠어"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "periods": [
+              0,
+              1
+            ]
+          },
+          "source_text": "아침도 비워줘"
+        }
+      ],
+      "resolved_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "days": [
+              "WED"
+            ],
+            "periods": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          "source_text": "수요일은 공강이었으면 좋겠어"
+        },
+        {
+          "type": "free_slots",
+          "params": {
+            "periods": [
+              0,
+              1
+            ]
+          },
+          "source_text": "아침도 비워줘"
+        }
+      ],
+      "solver_status": "ok"
+    }
+  ],
+  "scored_turn": 1
+}

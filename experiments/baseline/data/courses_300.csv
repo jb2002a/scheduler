@@ -1,0 +1,301 @@
+id,semester,course_code,category,category_group,name,name_en,credits,raw_time,schedulable
+1,1,L00313,교선,교양,알기쉬운독일어,Easy German,2,목34,1
+2,1,L00326,교선,교양,프리젠테이션스킬업,Presentation Skill-up,2,금34,1
+3,1,L00484,교선,교양,댄스스포츠,Dance Sports,2,목45,1
+4,1,L00541,교선,교양,NCS와직업기초능력,NCS(National Competency Standards) and Key Competencies,2,월34,1
+5,1,L00399,교선,교양,스포츠마케팅스토리두잉,Sports Marketing Story-Doing,2,수34,1
+6,1,L00588,교기,교양,디지털리터러시4,디지털리터러시4,4,월12수12,1
+7,1,L00653,교선,교양,AI에이전트스튜디오,,3,금23수2,1
+8,1,L00496,교선,교양,한국영화의흐름,The stream of Korean Film,2,수67,1
+9,1,L00407,교선,교양,언어와현대사회,Language and Modern Society,2,화56,1
+10,1,L00128,교기,교양,알기쉬운화학이야기,Be easy to understand Chemistry story,3,화23금2,1
+11,1,L00324,교선,교양,중급실용한자,Intermediate Practical Chinese character,2,화56,1
+12,1,L00514,교선,교양,창업성공전략,Foundation & Strategies for Success,2,월78,1
+13,1,L00443,교선,교양,iOS기반의앱콘텐츠개발,Ios-based application content development,2,금67,1
+14,1,L00301,교선,교양,한국문화사,Korean Cultural History,3,화23목3,1
+15,1,L00334,교선,교양,국제화시대와커뮤니케이션,International Communication,2,화67,1
+16,1,L00403,교선,교양,북콘서트낭독의발견,The power of reading,2,목34,1
+17,1,L00480,교선,교양,영화의이해,Understanding of Film,2,수78,1
+18,1,L00491,교선,교양,재미있게듣는클래식명곡,How to enjoy a classical music,2,수45,1
+19,1,L00511,교선,교양,색깔있는창업마케팅,Job Creating Marketing with Color,3,목567,1
+20,1,374078,선전,전공,사물인터넷,Internet of Things,3,월56수5,1
+21,1,L00445,교선,교양,창의개발프로그래밍,Creative Development Processing,2,수56,1
+22,1,L00582,교선,교양,군교육훈련3,,3,금234,1
+23,1,L00607,교선,교양,지속가능성과융합,Sustainability and Convergence,3,수23화2,1
+24,1,L00316,교선,교양,영상으로배우는독일어,Audio-Visual Elementary German,2,월78,1
+25,1,L00132,교선,교양,한국어회화1,,3,목56화6,1
+26,1,L00614,교기,교양,생명경제와사회변동,Life Economy and Social Change,2,월45,1
+27,1,L00441,교선,교양,알아두면쓸모있는곤충이야기,Useful Stories on Insects,3,화567,1
+28,1,L00409,교선,교양,창의적사고와융합,Creative Thinking & Convergence,2,금45,1
+29,1,L00127,교기,교양,창의융합기술보고서&글쓰기,Creative Convergence Technical Report & Writing,3,수567,1
+30,1,L00437,교선,교양,식생활과건강,Meals for Good Health,2,금12,1
+31,1,L00372,교선,교양,21세기의고고학,Archaeology of the 21st Century,2,금23,1
+32,1,L00489,교선,교양,디자인감상및비평,Design Appreciation and Criticism,2,목78,1
+33,1,L00004,교필,교양,전공탐색101,Search for a Major 101,2,금56,1
+34,1,L00323,교선,교양,중국개황2,History of China 2,2,월12,1
+35,1,L00321,교선,교양,한어사작,Korean Language,2,금67,1
+36,1,L00468,교선,교양,덕성훈련심화과정,The Moral Character Intensification Course,2,금34,1
+37,1,L00642,교선,교양,와인문화와비즈니스,,2,월56,1
+38,1,L00366,교선,교양,평화의이해,The study of peace,2,수12,1
+39,1,L00488,교선,교양,힐링댄스,Healing dance,2,화67,1
+40,1,L00615,교기,교양,걷기의사유학과인생노트,Philosophy of Walking and the Life Notebook,2,화12,1
+41,1,L00343,교선,교양,현대사회와스포츠,Modern Society and Sports,2,수67,1
+42,1,L00619,교기,교양,문화예술코드로읽는ESG개론,Introduction to ESG through Culture and Art,2,월67,1
+43,1,L00617,교기,교양,사회정의와건강,Social Justice and Health,2,목12,1
+44,1,L00335,교선,교양,결혼과가족,Marriage and the Family,2,목78,1
+45,1,374067,선전,전공,IT융합기술이해,Understanding IT Convergence Technology,3,금567,1
+46,1,L00570,교기,교양,글로벌리터러시3,,2,수78,1
+47,1,L00490,교선,교양,자전거로떠나는문화예술기행,Humanities and Arts Spinning,2,금78,1
+48,1,L00650,교선,교양,AI시대의창의적소통과스피치실습,,2,월67,1
+49,1,L00542,교선,교양,직업탐색과기업분석,Occupation search and Industry analysis,2,화12,1
+50,1,374125,선전,전공,빅데이터처리,Big Data Processing,3,목567,1
+51,1,L00557,교선,교양,디자인·문화융합계열취업설계,Design and Cultural Convergence Employment Design,2,수78,1
+52,1,L00447,교선,교양,여대생을위한호신술,Self-defense martial art care for female college students,2,화78,1
+53,1,L00105,교기,교양,글쓰기이론과실제,Theory and Practice of Writing,3,월23목2,1
+54,1,L00134,교선,교양,한국어회화3,,3,금56월6,1
+55,1,L00408,교선,교양,한국역사와역사인식,Korean History and Historical Cognition,2,목56,1
+56,1,L00421,교선,교양,일상대화속영어숙어,English Idioms in Daily Conversation,2,월45,1
+57,1,L00414,교선,교양,근대호남의정신과문화,The spirit and culture of modern Honam,2,금78,1
+58,1,L00603,교선,교양,AI로배우는스토리&아트창작,Story and Art Creation with AI,2,목12,1
+59,1,L00523,교선,교양,부동산과청년재테크,Real Estate and Financial Tec for Youth,2,월45,1
+60,1,L00458,교선,교양,재미있는노벨상이야기,The interesting story of the Nobel Prize,2,월67,1
+61,1,L00003,교필,교양,전공기초세미나,Seminar for Major Studies,2,목34,1
+62,1,L00113,교기,교양,수학과통계의세계,The world of Mathematics and Statistics,3,금345,1
+63,1,L00536,교선,교양,사회적경제와청년창업,Youth entrepreneurship and the Social economy,3,화567,1
+64,1,L00580,교선,교양,군교육훈련1,,1,화8,1
+65,1,L00595,교선,교양,Wonable실전취업스쿨,Wonable Practical Employment School,2,화34,1
+66,1,L00571,교기,교양,글로벌리터러시5,,3,금234,1
+67,1,L00453,교선,교양,미래에너지산업,Future Energy Industry,2,월34,1
+68,1,L00322,교선,교양,중국개황1,History of China 1,2,수56,1
+69,1,L00467,교선,교양,한국전통미술의이해,Understanding of Korean Traditional Art,2,수12,1
+70,1,L00476,교선,교양,팀스포츠,Team Sports,2,월67,1
+71,1,L00436,교선,교양,생활과원예,Life & Horticulture,2,목12,1
+72,1,374027,선전,전공,확률통계,Probability and Statistics,3,수12금1,1
+73,1,L00567,교선,교양,Startup을위한창의적문제해결,,3,금567,1
+74,1,L00365,교선,교양,나를찾아떠나는MBTI 여행,The Journey into Yourself with MBTI,2,금78,1
+75,1,L00550,교선,교양,공무원행정법입문,The first step in the Civil Service Administrative Law,2,목45,1
+76,1,374079,선전,전공,인공지능,Artificial Intelligence,3,화567,1
+77,1,L00342,교선,교양,현대사회와범죄,Modern Society and Criminal,2,금56,1
+78,1,L00481,교선,교양,개인스포츠1,Individual Sports 1,2,월45,1
+79,1,L00308,교선,교양,한국어독본1,Korean Reading1,3,목12화1,1
+80,1,L00410,교선,교양,창의적발상기법,Creative Conception Technique,2,수12,1
+81,1,L00428,교선,교양,생활보건학,Living Health Science,2,월12,1
+82,1,L00505,교선,교양,힐링패션with심리,Healing Fashion with Psychology,3,월567,1
+83,1,L00531,교선,교양,컴퓨터활용3,Computer Application 3,2,금45,1
+84,1,L00412,교선,교양,전북도시와사람,"Jeonbuk, City and People",3,화234,1
+85,1,L00332,교선,교양,서양철학의이해,Comprehension of Western Philosophy,2,수45,1
+86,1,L00380,교선,교양,생명평화리더십(아시아공동체론),Leadership of Life and Peace(Introduction to One Community),2,화45,1
+87,1,L00336,교선,교양,생활과법률,Life and Law,2,금23,1
+88,1,L00417,교선,교양,수학의역사,An interesting history of Mathematics,2,화67,1
+89,1,L00101,교기,교양,컴퓨팅적사고력,Computational Thinking Skills,3,수456,1
+90,1,L00370,교선,교양,너와나를위한심리학,Psychology for you and me,2,목78,1
+91,1,L00492,교선,교양,자화상으로배우는그림입문,Introduction to painting through outline self-portraits,2,월78,1
+92,1,L00429,교선,교양,현대인과구강건강,The Moderns and Oral Health,2,화45,1
+93,1,L00363,교선,교양,멀티미디어영어,Multimedia English,2,화12,1
+94,1,L00393,교선,교양,명사초청통일대담,Talks with Distinguished Persons on Unification,2,수78,1
+95,1,L00384,교선,교양,재미와의미,Fun and Mean,2,화23,1
+96,1,L00435,교선,교양,식량자원과인간,Food Resources & Human,2,화12,1
+97,1,L00318,교선,교양,대중매체와정보사회,High-tech Information Age & Media,2,화34,1
+98,1,L00420,교선,교양,국제사회의이해,The Study of International Society,2,수67,1
+99,1,L00430,교선,교양,스포츠와건강,Sports and Health,2,목67,1
+100,1,L00106,교기,교양,후마니타스독서와토론,humanitas reading and discussion,3,화567,1
+101,1,L00535,교선,교양,3D프린팅이해및활용,3D Printing Comprehension and Applications,2,월67,1
+102,1,L00552,교선,교양,지역과지역기업의이해,Understanding of Regional and Local Enterprises,2,수45,1
+103,1,L00131,교선,교양,한국어문법3,,3,금23수3,1
+104,1,L00477,교선,교양,디자인과생활,Design & Life,2,화78,1
+105,1,L00479,교선,교양,공연예술의이해와감상,Understanding & Appreciation of Performing Arts,2,금12,1
+106,1,L00548,교선,교양,디자이너브랜딩창업,Individual Designer branding Startup,2,월56,1
+107,1,L00450,교선,교양,4차산업혁명기술입문,Introduction to 4th Industrial Revolution Technology,2,금45,1
+108,1,L00651,교기,교양,보건의료전문직간협업과소통,Interprofessional Collaboration and Communication in Healthcare,2,금78,1
+109,1,L00433,교선,교양,성의과학,Science of Sex,2,월78,1
+110,1,L00418,교선,교양,AI로하는일본문화기행,Traveling to Japanese Culture with AI,2,목23,1
+111,1,L00396,교선,교양,문화다양성교육,Cultural Diversity Education,2,화34,1
+112,1,L00585,교기,교양,글로벌리터러시2,,2,월78,1
+113,1,L00382,교선,교양,영상으로보는고고미술사,Archaeology and Art History with Video Contents,2,금56,1
+114,1,L00482,교선,교양,개인스포츠2,Individual Sports 2,2,화23,1
+115,1,L00346,교선,교양,법과사회,Law and Society,3,목567,1
+116,1,L00528,교선,교양,디지털포토샵,Digital Photoshop,2,월12,1
+117,1,L00499,교선,교양,문학과문화콘텐츠,Literature & Culture Contents,2,화34,1
+118,1,L00602,교선,교양,유쾌하고유익한우리의성(性),Our pleasant and helpful sex,3,금123,1
+119,1,L00125,교기,교양,보건의료전문직간협업리더십,Collaborative Leadership of Healthcare Professionals,2,수12,1
+120,1,L00357,교선,교양,영어학술적글쓰기입문,Introduction to English Academic Writing,2,월78,1
+121,1,L00623,교선,교양,AI기반대중음악송라이팅,AI-Based Popular Music Songwriting,2,수23,1
+122,1,L00475,교선,교양,국악의이해와감상,Comprehension of Korean Traditional Music,2,수56,1
+123,1,L00133,교선,교양,한국어회화2,,3,수123,1
+124,1,L00568,교선,교양,창조적문제해결전략,,3,수12월2,1
+125,1,L00117,교기,교양,물리와생활,Physics and Life,3,금56월6,1
+126,1,L00543,교선,교양,진로탐색과설계,Career search and design,2,목78,1
+127,1,L00426,교선,교양,건설과지구환경,Construction and Earth Environment,2,금56,1
+128,1,L00419,교선,교양,회복과순환을위한행복한소비,Happy Consumption for Recovery and Circulation,2,금23,1
+129,1,L00537,교선,교양,다빈치교실(창업.창의PBL),Trial as Da Vinci,2,목12,1
+130,1,L00110,교기,교양,대학영어,College English,3,목567,1
+131,1,L00553,교선,교양,학교현장교육의이해,Understanding the school field education,2,월23,1
+132,1,L00306,교선,교양,한국어작문2,Korean Composition 2,2,금45,1
+133,1,L00330,교선,교양,인간과윤리,Man and Ethics,2,목45,1
+134,1,L00554,교선,교양,스마트공학융합계열취업설계,Smart Engineering Convergence Employment Design,2,화45,1
+135,1,L00360,교선,교양,창의적영어글쓰기,Creative Writing in English,2,금45,1
+136,1,L00639,교선,교양,음식으로이루어진세상,,3,월567,1
+137,1,L00466,교선,교양,챠밍마시지요법,Charming Massage remedy,3,화567,1
+138,1,L00621,교기,교양,전문학사화상영어,Practical English,2,금78,1
+139,1,L00104,교기,교양,인공지능과미래사회,Artificial Intelligence and Future Society,3,월56목6,1
+140,1,L00517,교선,교양,초급HSK,Preliminary Hanyu Shuiping Kaoshi,3,화234,1
+141,1,374127,선전,전공,기업연계프로젝트2(종합설계2),Industry-linked Project2,2,화67,1
+142,1,L00529,교선,교양,컴퓨터활용1,Computer Application 1,2,화34,1
+143,1,L00328,교선,교양,다문화교육의이해,Understanding of Multi-cultural Education,2,월56,1
+144,1,L00102,교기,교양,피지컬컴퓨팅,Physical Computing,3,화34목3,1
+145,1,L00549,교선,교양,기초토익RC,Basic TOEIC RC,2,화67,1
+146,1,L00532,교선,교양,원로드맵설계,WON Roadmap Design,2,수34,1
+147,1,L00581,교선,교양,군교육훈련2,,2,목67,1
+148,1,L00594,교선,교양,Wonable멘토링스쿨,Wonable Mentoring School,2,월45,1
+149,1,L00504,교선,교양,영상크리에이터,Video Creator,3,수12금1,1
+150,1,L00613,교선,교양,컴퓨터개론,Introduction to Computers,2,화12,1
+151,1,L00556,교선,교양,생명서비스융합계열취업설계,Life Service Convergence Series Employment Design,2,금23,1
+152,1,L00359,교선,교양,해외여행영어,English for International Travel,2,목56,1
+153,1,L00586,교기,교양,글로벌리터러시4,글로벌리터러시4,4,화56목56,1
+154,1,L00115,교기,교양,4차산업혁명과수식없는물리,The fourth industrial revolution and physics without formula,3,화67목7,1
+155,1,L00611,교기,교양,알기쉬운반려동물의건강,Easy-to-understand Pet Health,3,월123,1
+156,1,L00575,교선,교양,지역봉사2,,2,화78,1
+157,1,L00457,교선,교양,암호학의역사와미래,Introduction to history of Cryptograph and future,2,수45,1
+158,1,L00305,교선,교양,한국어독해2,Korean Reading Comprehension 2,2,수78,1
+159,1,L00103,교기,교양,데이터분석및시각화,Data Analysis and Visualization,3,금123,1
+160,1,L00411,교선,교양,현대사회와젠더,Modern society and gender,2,월34,1
+161,1,L00485,교선,교양,러시아문화산책,Russian Culture,2,금45,1
+162,1,L00383,교선,교양,소비자를위한생활법률,Civil Law for Consumer Life,3,수67월7,1
+163,1,L00364,교선,교양,창의적사고와문화리터러시,Creative Thinking and Cultural Literacy,2,목12,1
+164,1,L00320,교선,교양,종합한국어,Practical Korean,3,목678,1
+165,1,L00462,교선,교양,스마트IOT이해,Understanding Smart IoT,2,금23,1
+166,1,L00574,교선,교양,지역봉사1,,1,월8,1
+167,1,L00112,교기,교양,대학생을위한기본수학,Basic mathematics for university students,3,목12화1,1
+168,1,L00465,교선,교양,한국어능력시험(외국인),Test of Proficiency in Korean,2,목12,1
+169,1,L00463,교선,교양,미적분학1,Calculus 1,3,월12수1,1
+170,1,L00373,교선,교양,삶의비밀,Secret of Life,2,수45,1
+171,1,L00618,교기,교양,OneHealth와공중보건위기대응,One Health and Public Health Crisis Response,2,금12,1
+172,1,L00509,교선,교양,창업실무,Seminar on start-up business,3,금123,1
+173,1,L00498,교선,교양,영화로보는한국독립운동,Movie and the Korean Independence Movement,2,월34,1
+174,1,L00461,교선,교양,빛과색채이야기,Stories about light and color,2,목78,1
+175,1,L00329,교선,교양,지식과인간의삶,Knowledge and Human Life,2,화12,1
+176,1,L00107,교기,교양,비판적사고와논리,Critical thinking and logic,3,금12수3,1
+177,1,L00508,교선,교양,문화예술창업실무,Practice of Culture & Arts Startups,2,수78,1
+178,1,374071,선전,전공,시스템분석과설계,System Analysis and Synthesis,3,금234,1
+179,1,L00309,교선,교양,한국어회화작문1,Korean Conversation & Composition1,3,수56금6,1
+180,1,L00446,교선,교양,현대인의질병과영양,Human disease and nutrition,3,월56금5,1
+181,1,L00348,교선,교양,북한사회와통일,North Korean Society & Unification,2,수78,1
+182,1,L00530,교선,교양,컴퓨터활용2,Computer Application 2,2,목34,1
+183,1,L00637,교선,교양,현실속의수학,,3,수34월3,1
+184,1,L00369,교선,교양,퍼스널브랜딩과소셜네트워크,Personal branding and social networks,2,화56,1
+185,1,L00597,교선,교양,인간과동물,Human and Animal,3,수678,1
+186,1,L00392,교선,교양,상대의마음을움직이는협상전략,Negotiation Strategies to Change Mind,2,금34,1
+187,1,L00478,교선,교양,일본대중문화의이해,Understanding of Japanese popular culture,2,목34,1
+188,1,L00652,교선,교양,NCS와직업공통능력,,2,화56,1
+189,1,L00645,교기,교양,동서사상과윤리적리더십,,2,목34,1
+190,1,L00636,교선,교양,통계적학습및인공지능,,3,금567,1
+191,1,L00116,교기,교양,과학기술과현대사회,Science Technology and Modern Society,3,수234,1
+192,1,L00390,교선,교양,커뮤니케이션기법,Communication Skills,2,화78,1
+193,1,L00391,교선,교양,맞춤법과표준어,The spelling system of Hangul and the standard language,2,목67,1
+194,1,L00545,교선,교양,발로뛰는Start-Up,Running Start-Up,2,수23,1
+195,1,L00368,교선,교양,전쟁과아시아,War and Asia,2,월56,1
+196,1,L00486,교선,교양,마음과행복,Mind and Happiness,2,수34,1
+197,1,L00442,교선,교양,생성형AI기초및활용,"The Fundamentals and Applications of Generative AI, GPT",2,목34,1
+198,1,L00314,교선,교양,알기쉬운러시아어,Beginning Russian,2,금12,1
+199,1,L00405,교선,교양,이야기논어,Analects about stories,2,수56,1
+200,1,L00126,교기,교양,지속가능경영을위한공감리터러시,Empathy Literacy for Sustainable Management,2,금56,1
+201,1,L00577,교선,교양,리더십2,,2,목78,1
+202,1,L00456,교선,교양,반려동물의이해,Companion Animal Lecture,2,금78,1
+203,1,L00124,교기,교양,영화로만나는생명윤리,15 Stories of Bioethics,2,목56,1
+204,1,L00576,교선,교양,리더십1,,1,수8,1
+205,1,L00513,교선,교양,벤처창업과경쟁전략,Starting the Venture Business and competitive Strategy,3,수456,1
+206,1,L00507,교선,교양,한국문화교류2,Korea Cultural Exchange 2,3,화12목2,1
+207,1,L00600,교선,교양,내가꿈꾸는대안교육,The Alternative Education I Dream Of,2,목23,1
+208,1,L00108,교기,교양,디지털시대의한자활용,Utilizing Chinese Characters in the Digital Age,3,목34화4,1
+209,1,L00544,교선,교양,실용중국어1,Practical Chinese1,3,금56월6,1
+210,1,L00610,교선,교양,주식투자의이해,Understanding Stock Investment,2,수34,1
+211,1,L00114,교기,교양,건강과생명과학,Health and natural science,3,월34수3,1
+212,1,L00448,교선,교양,4차산업혁명과빅데이터,Fourth Industrial Revolution and Big Data,2,목56,1
+213,1,L00315,교선,교양,일본어첫걸음,Japanese First Step,2,수34,1
+214,1,L00566,교선,교양,몸짱을위한영양테크,,3,목123,1
+215,1,L00558,교선,교양,농생명융합계열취업설계,Agricultural and Life Science Convergence Series Employment Design,2,월78,1
+216,1,L00375,교선,교양,콘텐츠로보는한국문화,Korean Culture Though Culture Content,2,화67,1
+217,1,L00555,교선,교양,경영거버넌스계열취업설계,Management Governance-affiliated Employment Design,2,목56,1
+218,1,L00431,교선,교양,생활통계,Statistics for Everyday Life,2,금34,1
+219,1,L00122,교기,교양,21세기세계시민리더십,21st Century Global Citizenship Leadership,2,월23,1
+220,1,L00374,교선,교양,두얼굴의중국역사,Chinese History with Two Faces,2,월23,1
+221,1,L00460,교선,교양,통계분석의이해(with통계패키지),Understanding Statistical Analysis (with Statistical package),2,화34,1
+222,1,374022,선전,전공,소프트웨어공학,Software Engineering,3,화12목1,1
+223,1,L00109,교기,교양,대학영어베이직,Academic Reading; Basic,3,화12금1,1
+224,1,L00526,교선,교양,경력개발베이직,Basics of Career Development,2,금67,1
+225,1,L00522,교선,교양,기업가정신및창업기초,Entrepreneurship & Venture Business,2,수12,1
+226,1,L00354,교선,교양,대중가요로듣는인문학,Popular songs and humanities,2,금67,1
+227,1,L00339,교선,교양,보건과사회,Public Health & Society,2,화45,1
+228,1,L00111,교기,교양,영어회화,English Conversation,3,월56수6,1
+229,1,L00572,교기,교양,디지털리터러시3,,2,목78,1
+230,1,L00616,교기,교양,도예치유와생태적감수성,Ceramic Art Therapy and Ecological Sensibility,2,수67,1
+231,1,L00344,교선,교양,CEO와리더십,CEO & Leadership,2,월45,1
+232,1,L00599,교선,교양,화학과생활,Chemistry and Life,2,화56,1
+233,1,L00573,교기,교양,디지털리터러시5,,3,화12수2,1
+234,1,L00311,교선,교양,무기체계론,The Theory of Weapon System,2,화78,1
+235,1,374074,선전,전공,해킹과방어기술,Hacking and Defence,3,월56금5,1
+236,1,L00358,교선,교양,실용영어,Practical English,2,화34,1
+237,1,L00635,교선,교양,세상속의화학,,3,목567,1
+238,1,L00540,교선,교양,소셜벤처창업과디자인씽킹,Social Venture Startup and Design Thinking,2,수67,1
+239,1,L00487,교선,교양,초급수화,Sign Language,2,월12,1
+240,1,374126,선전,전공,머신러닝,Machine Learning,3,금12수2,1
+241,1,L00598,교선,교양,반려동물의이해,Companion Animal Lecture,3,월45목4,1
+242,1,L00471,교선,교양,선과인격수련,Zen and Human Training,2,화45,1
+243,1,374066,선전,전공,웹(HTML5)프로그래밍,HTML5 Web Programming,3,목56화3,1
+244,1,L00643,교기,교양,글로벌보건안보와인도주의,,2,화45,1
+245,1,L00347,교선,교양,조선왕조실록보물찾기,Find the Treasure in the Annals of the Joseon Dynasty,2,금12,1
+246,1,L00340,교선,교양,평등과효율,Equality and Efficiency,2,목23,1
+247,1,L00337,교선,교양,경제와사회,Economy and Society,2,수23,1
+248,1,L00130,교선,교양,한국어문법2,,3,화567,1
+249,1,L00524,교선,교양,재테크의사결정,Decision making for financial Technology,2,화78,1
+250,1,L00464,교선,교양,모두를위한인공지능,AI for All,2,화67,1
+251,1,L00353,교선,교양,인성교육과도의실천,Character Education & Practice of Moral Principle,2,목34,1
+252,1,L00120,교기,교양,인성함양과마음치유,Character Development and Mind Healing,2,금34,1
+253,1,L00385,교선,교양,대화리더를위한이슈읽기,Reading Issues for becoming Good Communicative Readers,2,목23,1
+254,1,L00362,교선,교양,여행영어와문화,Travel English and Culture,2,월34,1
+255,1,L00510,교선,교양,창업론,Entrepreneurship,3,월23수3,1
+256,1,L00302,교선,교양,인적자원개발론,Human Resources Development,3,월567,1
+257,1,L00578,교선,교양,인성1,,1,금8,1
+258,1,374006,기전,전공,이산수학,Discrete Mathematics,3,월12목1,1
+259,1,374142,기전,전공,C언어프로그래밍,C Language Programming,3,목567,1
+260,1,374140,기전,전공,컴퓨터개론,Interduction to Computers,3,월12수1,1
+261,1,L00432,교선,교양,수학의즐거움,Joy of Mathematics,2,수78,1
+262,1,L00121,교기,교양,지속가능한생태계,,2,화78,1
+263,1,L00640,교선,교양,인체안의전쟁,,3,화34목3,1
+264,1,L00381,교선,교양,인물로보는중국역사,Chinese History through A Personage,2,목45,1
+265,1,L00310,교선,교양,국가안보론,National Security,2,월34,1
+266,1,L00351,교선,교양,인문학베이스캠프,Base Camp for Humanities,2,화78,1
+267,1,374025,선전,전공,컴퓨터그래픽스,Computer Graphics,3,월123,1
+268,1,L00516,교선,교양,문화행사기획,Cultural Event Planning,2,금34,1
+269,1,L00331,교선,교양,동양철학의이해,Comprehension of Oriental Philosophy,2,금78,1
+270,1,L00119,교기,교양,화학의기초,Fundamentals of Chemistry,3,목234,1
+271,1,L00415,교선,교양,고전으로배우는현대예절문화,Modern Etiquette Cultures Learned by Classics,2,수45,1
+272,1,L00494,교선,교양,생활속서예,Calligraphy in life,2,목23,1
+273,1,L00400,교선,교양,인물로본동북아시아,Significant Historical figures in Northeast Asia,2,월78,1
+274,1,L00470,교선,교양,예술감상및비평,Art Appreciation and Criticism,2,월23,1
+275,1,L00502,교선,교양,클래식산책,Classic music journey,2,목56,1
+276,1,374065,기전,전공,Java와객체지향프로그래밍,Java and Object-Oriented Programming,3,수23금2,1
+277,1,L00587,교기,교양,디지털리터러시2,디지털리터러시2,2,금67,1
+278,1,L00579,교선,교양,인성2,,2,월12,1
+279,1,L00561,교선,교양,대학생을위한금융기초,Financial basics,2,화23,1
+280,1,L00472,교선,교양,사회봉사,Voluntary Social Service,2,목67,1
+281,1,L00506,교선,교양,문화예술페스타,Arts & Culture Festa,2,화56,1
+282,1,L00422,교선,교양,한국어통역(교환학생),Korean Interpretation (Exchange Student),3,화34목4,1
+283,1,L00395,교선,교양,지속가능한삶,Sustainable Life,2,월12,1
+284,1,L00404,교선,교양,영화로배우는영어,Learning English through Movies,2,금12,1
+285,1,L00605,교선,교양,디자인과창의성,Design&Creativity,3,금234,1
+286,1,L00338,교선,교양,생활과세금,Life and Tax,2,월67,1
+287,1,L00539,교선,교양,OPIC,OPIC,2,금12,1
+288,1,L00416,교선,교양,실용색채학의이해,Practical color studies,2,월67,1
+289,1,L00327,교선,교양,고급실용한자,Advanced Practical Chinese character,2,수12,1
+290,1,L00361,교선,교양,팝송을통한영어회화,English through Popular Song,2,수56,1
+291,1,L00397,교선,교양,고전속의기초한자,basic Chinese characters in the Classics,2,목12,1
+292,1,L00454,교선,교양,건강한노화와운동과학,Healthy Aging and Kinesiology,3,화23목2,1
+293,1,L00527,교선,교양,글로벌창업실무,Global start-up practice,2,수56,1
+294,1,L00001,교필,교양,종교와원불교,Religion and Won-Buddhism,3,수34금4,1
+295,1,L00551,교선,교양,팀프로젝트생존전략,Team project success,2,금78,1
+296,1,374038,선전,전공,운영체제,Operating Systems,3,목567,1
+297,1,374008,기전,전공,데이터구조,Data Structure,3,화567,1
+298,1,L00609,교선,교양,"미래를읽는언어,통계","Language to read the future, statistics",2,월78,1
+299,1,L00593,교선,교양,"창업,문화를담다",Putting culture on the Startup,3,수567,1
+300,1,L00388,교선,교양,"익산,도시와사람","Iksan, Understanding of cities and people",3,월45수5,1

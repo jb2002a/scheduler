@@ -1,0 +1,226 @@
+{
+  "response_text": "{\"feasible\": true, \"courses\": [{\"name\": \"지역봉사1\", \"credits\": 1, \"time\": \"월8\"}, {\"name\": \"AI기반대중음악송라이팅\", \"credits\": 2, \"time\": \"수23\"}, {\"name\": \"데이터구조\", \"credits\": 3, \"time\": \"화567\"}, {\"name\": \"CEO와리더십\", \"credits\": 2, \"time\": \"월45\"}, {\"name\": \"중국어첫걸음2\", \"credits\": 2, \"time\": \"월67\"}, {\"name\": \"인간과동물\", \"credits\": 3, \"time\": \"수678\"}, {\"name\": \"암호학의역사와미래\", \"credits\": 2, \"time\": \"수45\"}, {\"name\": \"두얼굴의중국역사\", \"credits\": 2, \"time\": \"월23\"}, {\"name\": \"군교육훈련1\", \"credits\": 1, \"time\": \"화8\"}], \"total_credits\": 18, \"explanation\": \"solver\"}",
+  "error": null,
+  "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"course\",\"params\":{\"name\":\"데이터구조\",\"mode\":\"require\"},\"source_text\":\"데이터구조는 꼭 넣어\"},{\"type\":\"course\",\"params\":{\"name\":\"영어회화\",\"mode\":\"exclude\"},\"source_text\":\"영어회화는 빼줘\"}]}",
+  "model_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "course",
+      "params": {
+        "name": "데이터구조",
+        "mode": "require"
+      },
+      "source_text": "데이터구조는 꼭 넣어"
+    },
+    {
+      "type": "course",
+      "params": {
+        "name": "영어회화",
+        "mode": "exclude"
+      },
+      "source_text": "영어회화는 빼줘"
+    }
+  ],
+  "resolved_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      },
+      "source_text": "18학점으로 짜줘"
+    },
+    {
+      "type": "course",
+      "params": {
+        "course_id": 48,
+        "mode": "require"
+      },
+      "source_text": "데이터구조는 꼭 넣어"
+    },
+    {
+      "type": "course",
+      "params": {
+        "course_id": 63,
+        "mode": "exclude"
+      },
+      "source_text": "영어회화는 빼줘"
+    }
+  ],
+  "solver_result": {
+    "status": "ok",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "credits",
+        "params": {
+          "min": 18,
+          "max": 18
+        },
+        "source_text": "18학점으로 짜줘"
+      },
+      {
+        "id": "c2",
+        "type": "course",
+        "params": {
+          "course_id": 48,
+          "mode": "require"
+        },
+        "source_text": "데이터구조는 꼭 넣어"
+      },
+      {
+        "id": "c3",
+        "type": "course",
+        "params": {
+          "course_id": 63,
+          "mode": "exclude"
+        },
+        "source_text": "영어회화는 빼줘"
+      }
+    ],
+    "candidates": [
+      {
+        "courses": [
+          {
+            "id": 16,
+            "name": "지역봉사1",
+            "credits": 1,
+            "raw_time": "월8"
+          },
+          {
+            "id": 24,
+            "name": "AI기반대중음악송라이팅",
+            "credits": 2,
+            "raw_time": "수23"
+          },
+          {
+            "id": 48,
+            "name": "데이터구조",
+            "credits": 3,
+            "raw_time": "화567"
+          },
+          {
+            "id": 56,
+            "name": "CEO와리더십",
+            "credits": 2,
+            "raw_time": "월45"
+          },
+          {
+            "id": 60,
+            "name": "중국어첫걸음2",
+            "credits": 2,
+            "raw_time": "월67"
+          },
+          {
+            "id": 67,
+            "name": "인간과동물",
+            "credits": 3,
+            "raw_time": "수678"
+          },
+          {
+            "id": 88,
+            "name": "암호학의역사와미래",
+            "credits": 2,
+            "raw_time": "수45"
+          },
+          {
+            "id": 90,
+            "name": "두얼굴의중국역사",
+            "credits": 2,
+            "raw_time": "월23"
+          },
+          {
+            "id": 99,
+            "name": "군교육훈련1",
+            "credits": 1,
+            "raw_time": "화8"
+          }
+        ],
+        "total_credits": 18,
+        "days_used": [
+          "MON",
+          "TUE",
+          "WED"
+        ],
+        "metrics": {
+          "free_periods_by_day": {
+            "MON": 0,
+            "TUE": 0,
+            "WED": 0
+          },
+          "max_consecutive": 7,
+          "early_class_count": 0,
+          "late_class_count": 0
+        },
+        "score": 3000000
+      }
+    ]
+  },
+  "turn_trace": [
+    {
+      "turn": 1,
+      "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18},\"source_text\":\"18학점으로 짜줘\"},{\"type\":\"course\",\"params\":{\"name\":\"데이터구조\",\"mode\":\"require\"},\"source_text\":\"데이터구조는 꼭 넣어\"},{\"type\":\"course\",\"params\":{\"name\":\"영어회화\",\"mode\":\"exclude\"},\"source_text\":\"영어회화는 빼줘\"}]}",
+      "model_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "course",
+          "params": {
+            "name": "데이터구조",
+            "mode": "require"
+          },
+          "source_text": "데이터구조는 꼭 넣어"
+        },
+        {
+          "type": "course",
+          "params": {
+            "name": "영어회화",
+            "mode": "exclude"
+          },
+          "source_text": "영어회화는 빼줘"
+        }
+      ],
+      "resolved_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          },
+          "source_text": "18학점으로 짜줘"
+        },
+        {
+          "type": "course",
+          "params": {
+            "course_id": 48,
+            "mode": "require"
+          },
+          "source_text": "데이터구조는 꼭 넣어"
+        },
+        {
+          "type": "course",
+          "params": {
+            "course_id": 63,
+            "mode": "exclude"
+          },
+          "source_text": "영어회화는 빼줘"
+        }
+      ],
+      "solver_status": "ok"
+    }
+  ],
+  "scored_turn": 0
+}

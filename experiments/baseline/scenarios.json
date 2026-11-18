@@ -1,0 +1,139 @@
+[
+  {
+    "id": "S1",
+    "type": "single",
+    "request": "18학점으로 짜줘",
+    "turns": ["18학점으로 짜줘"],
+    "constraints": [
+      {"id": "c1", "type": "credits", "params": {"min": 18, "max": 18}}
+    ],
+    "expected_feasible": true
+  },
+  {
+    "id": "S2",
+    "type": "day",
+    "request": "18학점, 수요일 공강",
+    "turns": ["18학점으로 짜줘. 수요일은 공강이었으면 좋겠어."],
+    "constraints": [
+      {"id": "c1", "type": "credits", "params": {"min": 18, "max": 18}},
+      {"id": "c2", "type": "free_slots", "params": {"days": ["WED"]}}
+    ],
+    "expected_feasible": true
+  },
+  {
+    "id": "S3",
+    "type": "period",
+    "request": "18학점, 아침 1교시 비워줘",
+    "turns": ["18학점으로 짜줘. 아침 1교시는 비워줘."],
+    "constraints": [
+      {"id": "c1", "type": "credits", "params": {"min": 18, "max": 18}},
+      {"id": "c2", "type": "free_slots", "params": {"periods": [0, 1]}}
+    ],
+    "expected_feasible": true
+  },
+  {
+    "id": "S4",
+    "type": "period",
+    "request": "18학점, 점심(4교시) 비워줘",
+    "turns": ["18학점으로 짜줘. 점심 4교시는 비워줘."],
+    "constraints": [
+      {"id": "c1", "type": "credits", "params": {"min": 18, "max": 18}},
+      {"id": "c2", "type": "free_slots", "params": {"periods": [4]}}
+    ],
+    "expected_feasible": true
+  },
+  {
+    "id": "S5",
+    "type": "compound",
+    "request": "18학점, 수요일 공강, 점심 비우기, 주 3일",
+    "turns": ["18학점으로 짜줘. 수요일 공강, 점심 4교시 비우고, 주 3일만 다니고 싶어."],
+    "constraints": [
+      {"id": "c1", "type": "credits", "params": {"min": 18, "max": 18}},
+      {"id": "c2", "type": "free_slots", "params": {"days": ["WED"]}},
+      {"id": "c3", "type": "free_slots", "params": {"periods": [4]}},
+      {"id": "c4", "type": "limit", "params": {"kind": "days", "count": 3}}
+    ],
+    "expected_feasible": true
+  },
+  {
+    "id": "S6",
+    "type": "course",
+    "request": "데이터구조는 꼭 넣고 영어회화는 빼줘",
+    "turns": ["18학점으로 짜줘. 데이터구조는 꼭 넣고 영어회화는 빼줘."],
+    "constraints": [
+      {"id": "c1", "type": "credits", "params": {"min": 18, "max": 18}},
+      {
+        "id": "c2",
+        "type": "course",
+        "params": {"name": "데이터구조", "mode": "require"}
+      },
+      {
+        "id": "c3",
+        "type": "course",
+        "params": {"name": "영어회화", "mode": "exclude"}
+      }
+    ],
+    "expected_feasible": true
+  },
+  {
+    "id": "S7",
+    "type": "category_credits",
+    "request": "전공 12학점 이상, 총 18학점",
+    "turns": ["전공 12학점 이상, 총 18학점으로 짜줘."],
+    "constraints": [
+      {"id": "c1", "type": "credits", "params": {"min": 18, "max": 18}},
+      {"id": "c2", "type": "credits", "params": {"category": "전공", "min": 12}}
+    ],
+    "expected_feasible": true
+  },
+  {
+    "id": "S8",
+    "type": "infeasible",
+    "request": "불가능한 요청",
+    "turns": [
+      "18학점으로 짜줘. 월요일부터 금요일까지 0교시부터 10교시까지 전부 비워줘."
+    ],
+    "constraints": [
+      {"id": "c1", "type": "credits", "params": {"min": 18, "max": 18}},
+      {
+        "id": "c2",
+        "type": "free_slots",
+        "params": {
+          "days": ["MON", "TUE", "WED", "THU", "FRI"],
+          "periods": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        }
+      }
+    ],
+    "expected_feasible": false
+  },
+  {
+    "id": "S9",
+    "type": "multiturn",
+    "request": "S2 결과에 아침도 비워줘",
+    "turns": [
+      "18학점으로 짜줘. 수요일은 공강이었으면 좋겠어.",
+      "아침도 비워줘."
+    ],
+    "constraints": [
+      {"id": "c1", "type": "credits", "params": {"min": 18, "max": 18}},
+      {"id": "c2", "type": "free_slots", "params": {"days": ["WED"]}},
+      {"id": "c3", "type": "free_slots", "params": {"periods": [0, 1]}}
+    ],
+    "expected_feasible": true
+  },
+  {
+    "id": "S10",
+    "type": "multiturn",
+    "request": "S9 결과에 수요일 공강 취소",
+    "turns": [
+      "18학점으로 짜줘. 수요일은 공강이었으면 좋겠어.",
+      "아침도 비워줘.",
+      "아까 수요일 공강은 취소해줘."
+    ],
+    "constraints": [
+      {"id": "c1", "type": "credits", "params": {"min": 18, "max": 18}},
+      {"id": "c2", "type": "free_slots", "params": {"periods": [0, 1]}}
+    ],
+    "expected_feasible": true
+  }
+]

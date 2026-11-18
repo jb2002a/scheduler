@@ -1,0 +1,161 @@
+{
+  "response_text": "{\"feasible\": true, \"courses\": [{\"name\": \"선과인격수련\", \"credits\": 2, \"time\": \"화45\"}, {\"name\": \"팀프로젝트생존전략_변형420\", \"credits\": 2, \"time\": \"화6\"}, {\"name\": \"컴퓨터개론_변형383\", \"credits\": 3, \"time\": \"수45\"}, {\"name\": \"데이터구조_변형343\", \"credits\": 3, \"time\": \"수78\"}, {\"name\": \"Java와객체지향프로그래밍_변형378\", \"credits\": 3, \"time\": \"화78수3\"}, {\"name\": \"이산수학_변형468\", \"credits\": 3, \"time\": \"화3\"}, {\"name\": \"AI로배우는스토리&아트창작_변형395\", \"credits\": 2, \"time\": \"화2\"}], \"total_credits\": 18, \"explanation\": \"solver\"}",
+  "error": null,
+  "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"category\":\"전공\",\"min\":12}},{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18}}]}",
+  "model_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "category": "전공",
+        "min": 12
+      }
+    },
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      }
+    }
+  ],
+  "resolved_constraints": [
+    {
+      "type": "credits",
+      "params": {
+        "category": "전공",
+        "min": 12
+      }
+    },
+    {
+      "type": "credits",
+      "params": {
+        "min": 18,
+        "max": 18
+      }
+    }
+  ],
+  "solver_result": {
+    "status": "ok",
+    "constraints": [
+      {
+        "id": "c1",
+        "type": "credits",
+        "params": {
+          "category": "전공",
+          "min": 12
+        }
+      },
+      {
+        "id": "c2",
+        "type": "credits",
+        "params": {
+          "min": 18,
+          "max": 18
+        }
+      }
+    ],
+    "candidates": [
+      {
+        "courses": [
+          {
+            "id": 36,
+            "name": "선과인격수련",
+            "credits": 2,
+            "raw_time": "화45"
+          },
+          {
+            "id": 300,
+            "name": "팀프로젝트생존전략_변형420",
+            "credits": 2,
+            "raw_time": "화6"
+          },
+          {
+            "id": 304,
+            "name": "컴퓨터개론_변형383",
+            "credits": 3,
+            "raw_time": "수45"
+          },
+          {
+            "id": 341,
+            "name": "데이터구조_변형343",
+            "credits": 3,
+            "raw_time": "수78"
+          },
+          {
+            "id": 402,
+            "name": "Java와객체지향프로그래밍_변형378",
+            "credits": 3,
+            "raw_time": "화78수3"
+          },
+          {
+            "id": 483,
+            "name": "이산수학_변형468",
+            "credits": 3,
+            "raw_time": "화3"
+          },
+          {
+            "id": 499,
+            "name": "AI로배우는스토리&아트창작_변형395",
+            "credits": 2,
+            "raw_time": "화2"
+          }
+        ],
+        "total_credits": 18,
+        "days_used": [
+          "TUE",
+          "WED"
+        ],
+        "metrics": {
+          "free_periods_by_day": {
+            "TUE": 0,
+            "WED": 1
+          },
+          "max_consecutive": 7,
+          "early_class_count": 0,
+          "late_class_count": 0
+        },
+        "score": 2000000
+      }
+    ]
+  },
+  "turn_trace": [
+    {
+      "turn": 1,
+      "raw_arguments": "{\"constraints\":[{\"type\":\"credits\",\"params\":{\"category\":\"전공\",\"min\":12}},{\"type\":\"credits\",\"params\":{\"min\":18,\"max\":18}}]}",
+      "model_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "category": "전공",
+            "min": 12
+          }
+        },
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          }
+        }
+      ],
+      "resolved_constraints": [
+        {
+          "type": "credits",
+          "params": {
+            "category": "전공",
+            "min": 12
+          }
+        },
+        {
+          "type": "credits",
+          "params": {
+            "min": 18,
+            "max": 18
+          }
+        }
+      ],
+      "solver_status": "ok"
+    }
+  ],
+  "scored_turn": 0
+}
